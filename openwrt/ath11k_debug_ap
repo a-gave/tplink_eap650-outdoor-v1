@@ -1,0 +1,867 @@
+root@eap:~# logread -f
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.880443] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 324
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.880489] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 0000000073f14202 trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.880519] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.880545] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 0000000073f14202 len 182 ftype 00 stype 80
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.880566] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -51, rate_idx 6
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.884415] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 308
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.884463] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000142f0eda trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.884496] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.884515] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000142f0eda len 166 ftype 00 stype 80
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.884533] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.889742] ath11k c000000.wifi: ce rx ce pipe 1 len 360
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.889777] ath11k c000000.wifi: htc rx ep 1 skb 00000000c12cdd53 trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.889798] ath11k c000000.wifi: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.895163] ath11k c000000.wifi: ce rx ce pipe 2 len 256
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.895205] ath11k c000000.wifi: htc rx ep 2 skb 00000000f9662f35 trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.895275] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.895297] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000f9662f35 len 167 ftype 00 stype 80
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.895318] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -28, rate_idx 3
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.895461] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.895483] ath11k c000000.wifi: htc rx ep 2 skb 00000000ab131c16 trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.895504] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.895518] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000ab131c16 len 163 ftype 00 stype 80
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.895532] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -30, rate_idx 10
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.900559] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 320
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.900592] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 0000000071019f5c trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.900617] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.900635] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 0000000071019f5c len 178 ftype 00 stype 80
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.900651] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.928419] ath11k c000000.wifi: ce rx ce pipe 2 len 268
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.928453] ath11k c000000.wifi: htc rx ep 2 skb 0000000064cec34d trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.928477] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.928494] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000064cec34d len 178 ftype 00 stype 80
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.928509] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -26, rate_idx 10
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.945114] ath11k_pci 0000:01:00.0: ce rx ce pipe 1 len 372
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.945149] ath11k_pci 0000:01:00.0: htc rx ep 1 skb 00000000fd107997 trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.945168] ath11k_pci 0000:01:00.0: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.950545] ath11k c000000.wifi: ce rx ce pipe 2 len 1484
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.950570] ath11k c000000.wifi: htc rx ep 2 skb 00000000d12d803c trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.950586] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.963152] ath11k c000000.wifi: ce rx ce pipe 2 len 284
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.963185] ath11k c000000.wifi: htc rx ep 2 skb 000000005a43dea2 trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.963210] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.963226] ath11k c000000.wifi: mgmt event mgmt rx skb 000000005a43dea2 len 193 ftype 00 stype 80
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.963242] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -29, rate_idx 3
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.967707] ath11k c000000.wifi: ce rx ce pipe 2 len 336
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.967738] ath11k c000000.wifi: htc rx ep 2 skb 0000000063f3db91 trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.967763] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.967781] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000063f3db91 len 248 ftype 00 stype 80
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.967797] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -42, rate_idx 10
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.968000] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 412
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.968027] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000904f6baf trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.968045] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.968063] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000904f6baf len 271 ftype 00 stype 80
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.968079] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -51, rate_idx 6
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.972747] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.972779] ath11k c000000.wifi: htc rx ep 2 skb 000000000cab9587 trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.972800] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.972816] ath11k c000000.wifi: mgmt event mgmt rx skb 000000000cab9587 len 163 ftype 00 stype 80
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.972831] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -44, rate_idx 3
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.973900] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 264
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.973929] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000005941dbaa trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.973948] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.973964] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000005941dbaa len 124 ftype 00 stype 80
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.973979] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.978330] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 532
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.978362] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000d0ba5123 trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.978383] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.978401] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000d0ba5123 len 390 ftype 00 stype 80
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.978416] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -92, rate_idx 6
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.983879] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 324
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.983908] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000004ab91f8c trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.983927] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.983942] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000004ab91f8c len 182 ftype 00 stype 80
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.983958] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -51, rate_idx 6
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.989442] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 308
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.989473] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000a010ef89 trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.989496] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.989512] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000a010ef89 len 166 ftype 00 stype 80
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.989526] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.995037] ath11k c000000.wifi: ce rx ce pipe 1 len 360
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.995073] ath11k c000000.wifi: htc rx ep 1 skb 00000000d8ef063a trailer_present 0
+Thu Jan  1 00:40:49 1970 kern.debug kernel: [ 2449.995090] ath11k c000000.wifi: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.000592] ath11k c000000.wifi: ce rx ce pipe 2 len 256
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.000617] ath11k c000000.wifi: htc rx ep 2 skb 00000000c3f8ed15 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.000637] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.000655] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000c3f8ed15 len 167 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.000670] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -28, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.000802] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.000823] ath11k c000000.wifi: htc rx ep 2 skb 00000000fb714b4c trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.000841] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.000853] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000fb714b4c len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.000866] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -30, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.000938] ath11k c000000.wifi: ce rx ce pipe 2 len 1492
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.000954] ath11k c000000.wifi: htc rx ep 2 skb 0000000046cf6217 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.000971] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.001011] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 320
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.001023] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 0000000005b2b3a9 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.001040] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.001053] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 0000000005b2b3a9 len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.001066] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -59, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.029928] ath11k c000000.wifi: ce rx ce pipe 2 len 268
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.029961] ath11k c000000.wifi: htc rx ep 2 skb 000000006abf3df7 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.029984] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.030001] ath11k c000000.wifi: mgmt event mgmt rx skb 000000006abf3df7 len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.030017] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -27, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.050555] ath11k_pci 0000:01:00.0: ce rx ce pipe 1 len 372
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.050588] ath11k_pci 0000:01:00.0: htc rx ep 1 skb 000000006391deba trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.050607] ath11k_pci 0000:01:00.0: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.067323] ath11k c000000.wifi: ce rx ce pipe 2 len 284
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.067352] ath11k c000000.wifi: htc rx ep 2 skb 000000005f3989a3 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.067374] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.067389] ath11k c000000.wifi: mgmt event mgmt rx skb 000000005f3989a3 len 193 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.067404] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -28, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.072848] ath11k c000000.wifi: ce rx ce pipe 2 len 336
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.072876] ath11k c000000.wifi: htc rx ep 2 skb 00000000794a53e3 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.072898] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.072913] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000794a53e3 len 248 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.072927] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -41, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.073032] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.073057] ath11k c000000.wifi: htc rx ep 2 skb 00000000fcd5219b trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.073079] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.073096] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000fcd5219b len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.073111] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -44, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.073247] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 412
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.073274] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000006efb452f trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.073296] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.073312] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000006efb452f len 271 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.073326] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -51, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.078329] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 264
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.078379] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000d75aee61 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.078418] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.078448] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000d75aee61 len 124 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.078474] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.078620] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 532
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.078660] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000005effa49d trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.078685] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.078706] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000005effa49d len 390 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.078730] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -90, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.085194] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 324
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.085225] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000aba5a2a9 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.085251] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.085269] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000aba5a2a9 len 182 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.085285] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -51, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.089440] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 308
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.089467] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000004eba58e3 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.089489] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.089505] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000004eba58e3 len 166 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.089520] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.095034] ath11k c000000.wifi: ce rx ce pipe 1 len 360
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.095070] ath11k c000000.wifi: htc rx ep 1 skb 00000000380d8762 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.095088] ath11k c000000.wifi: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.100638] ath11k c000000.wifi: ce rx ce pipe 2 len 1476
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.100666] ath11k c000000.wifi: htc rx ep 2 skb 00000000aaa1ded2 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.100683] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.100698] ath11k c000000.wifi: ce rx ce pipe 2 len 256
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.100709] ath11k c000000.wifi: htc rx ep 2 skb 0000000090a12cc9 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.100725] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.100740] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000090a12cc9 len 167 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.100754] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -30, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.100881] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.100903] ath11k c000000.wifi: htc rx ep 2 skb 000000004333f011 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.100920] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.100933] ath11k c000000.wifi: mgmt event mgmt rx skb 000000004333f011 len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.100947] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -29, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.101977] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 320
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.102002] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 0000000030a320fb trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.102024] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.102039] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 0000000030a320fb len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.102053] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.134483] ath11k c000000.wifi: ce rx ce pipe 2 len 268
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.134532] ath11k c000000.wifi: htc rx ep 2 skb 00000000a5d440d0 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.134567] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.134599] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000a5d440d0 len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.134625] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -26, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.151077] ath11k_pci 0000:01:00.0: ce rx ce pipe 1 len 372
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.151127] ath11k_pci 0000:01:00.0: htc rx ep 1 skb 000000003a3b5f9b trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.151157] ath11k_pci 0000:01:00.0: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.167939] ath11k c000000.wifi: ce rx ce pipe 2 len 284
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.167986] ath11k c000000.wifi: htc rx ep 2 skb 0000000073172a53 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.168024] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.168053] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000073172a53 len 193 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.168079] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -28, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.173365] ath11k c000000.wifi: ce rx ce pipe 2 len 336
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.173396] ath11k c000000.wifi: htc rx ep 2 skb 000000009b76617b trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.173415] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.173431] ath11k c000000.wifi: mgmt event mgmt rx skb 000000009b76617b len 248 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.173448] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -41, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.173594] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 412
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.173616] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000f30d1c23 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.173636] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.173650] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000f30d1c23 len 271 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.173665] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -51, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.174093] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.174137] ath11k c000000.wifi: htc rx ep 2 skb 00000000e723dc3c trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.174160] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.174176] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000e723dc3c len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.174192] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -44, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.178850] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 264
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.178881] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000d3d03c0f trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.178902] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.178919] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000d3d03c0f len 124 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.178935] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.180709] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 532
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.180734] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000b697214e trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.180756] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.180771] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000b697214e len 390 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.180784] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -91, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.189959] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 324
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.189988] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000008ec0c469 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.190007] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.190024] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000008ec0c469 len 182 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.190039] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -51, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.191549] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 308
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.191581] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000006ffd9027 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.191606] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.191637] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000006ffd9027 len 166 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.191653] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.191820] ath11k c000000.wifi: ce rx ce pipe 2 len 1480
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.191844] ath11k c000000.wifi: htc rx ep 2 skb 00000000dfa32250 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.191862] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.196923] ath11k c000000.wifi: ce rx ce pipe 1 len 360
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.196951] ath11k c000000.wifi: htc rx ep 1 skb 0000000009ca851c trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.196971] ath11k c000000.wifi: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.201912] ath11k c000000.wifi: ce rx ce pipe 2 len 256
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.201935] ath11k c000000.wifi: htc rx ep 2 skb 0000000057013559 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.201954] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.201969] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000057013559 len 167 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.201983] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -28, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.206682] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.206717] ath11k c000000.wifi: htc rx ep 2 skb 00000000610dcdbd trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.206739] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.206759] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000610dcdbd len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.206775] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -29, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.206950] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 320
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.206983] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000ae176a9c trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.207001] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.207017] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000ae176a9c len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.207032] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.234724] ath11k c000000.wifi: ce rx ce pipe 2 len 268
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.234778] ath11k c000000.wifi: htc rx ep 2 skb 000000004e4510f9 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.234818] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.234847] ath11k c000000.wifi: mgmt event mgmt rx skb 000000004e4510f9 len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.234873] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -26, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.252260] ath11k_pci 0000:01:00.0: ce rx ce pipe 1 len 372
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.252294] ath11k_pci 0000:01:00.0: htc rx ep 1 skb 00000000ce10bd95 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.252314] ath11k_pci 0000:01:00.0: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.273371] ath11k c000000.wifi: ce rx ce pipe 2 len 284
+Thu Jan  1 00:40:50 ^CThu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.279312] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -44, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.280775] ath11k c000000.wifi: ce rx ce pipe 2 len 1500
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.280803] ath11k c000000.wifi: htc rx ep 2 skb 00000000f7d7d848 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.280820] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.284456] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 264
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.284484] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000947414fb trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.284505] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.284523] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000947414fb len 124 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.284539] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.284696] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 532
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.284729] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000c4d7f38b trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.284748] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.284762] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000c4d7f38b len 390 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.284778] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -91, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.290004] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 324
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.290033] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000e7a0f439 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.290054] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.290072] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000e7a0f439 len 182 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.290086] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -50, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.295581] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 308
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.295619] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000009bd2fa79 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.295648] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.295666] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000009bd2fa79 len 166 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.295685] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.301096] ath11k c000000.wifi: ce rx ce pipe 1 len 360
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.301125] ath11k c000000.wifi: htc rx ep 1 skb 00000000894d6dd3 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.301143] ath11k c000000.wifi: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.306845] ath11k c000000.wifi: ce rx ce pipe 2 len 256
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.306889] ath11k c000000.wifi: htc rx ep 2 skb 000000003dff9393 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.306918] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.306936] ath11k c000000.wifi: mgmt event mgmt rx skb 000000003dff9393 len 167 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.306951] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -28, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.307106] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.307129] ath11k c000000.wifi: htc rx ep 2 skb 00000000ab131c16 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.307151] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.307166] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000ab131c16 len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.307181] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -29, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.307299] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 320
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.307319] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000003691063d trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.307339] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.307354] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000003691063d len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.307368] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.340044] ath11k c000000.wifi: ce rx ce pipe 2 len 268
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.340081] ath11k c000000.wifi: htc rx ep 2 skb 0000000072b603fb trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.340103] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.340122] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000072b603fb len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.340136] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -26, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.356648] ath11k_pci 0000:01:00.0: ce rx ce pipe 1 len 372
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.356679] ath11k_pci 0000:01:00.0: htc rx ep 1 skb 00000000a85e92a2 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.356698] ath11k_pci 0000:01:00.0: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.373367] ath11k c000000.wifi: ce rx ce pipe 2 len 284
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.373397] ath11k c000000.wifi: htc rx ep 2 skb 0000000064cec34d trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.373420] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.373436] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000064cec34d len 193 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.373451] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -28, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.378948] ath11k c000000.wifi: ce rx ce pipe 2 len 1464
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.378982] ath11k c000000.wifi: htc rx ep 2 skb 00000000d12d803c trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.379002] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.379018] ath11k c000000.wifi: ce rx ce pipe 2 len 336
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.379030] ath11k c000000.wifi: htc rx ep 2 skb 00000000e5478fce trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.379047] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.379063] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000e5478fce len 248 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.379078] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -41, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.379211] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.379234] ath11k c000000.wifi: htc rx ep 2 skb 0000000063f3db91 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.379251] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.379265] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000063f3db91 len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.379280] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -44, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.379384] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 412
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.379405] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000504bfda3 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.379423] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.379436] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000504bfda3 len 271 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.379449] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -49, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.384461] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 264
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.384499] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000000b241b4d trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.384519] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.384536] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000000b241b4d len 124 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.384552] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.385482] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 532
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.385511] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 0000000016554144 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.385534] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.385550] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 0000000016554144 len 390 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.385564] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -90, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.395565] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 324
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.395596] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 0000000073f14202 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.395616] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.395633] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 0000000073f14202 len 182 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.395647] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -51, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.396357] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 308
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.396385] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000d068761b trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.396405] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.396424] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000d068761b len 166 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.396439] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.401720] ath11k c000000.wifi: ce rx ce pipe 1 len 360
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.401746] ath11k c000000.wifi: htc rx ep 1 skb 00000000ddbc0f9d trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.401761] ath11k c000000.wifi: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.406830] ath11k c000000.wifi: ce rx ce pipe 2 len 256
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.406858] ath11k c000000.wifi: htc rx ep 2 skb 000000000cab9587 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.406887] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.406907] ath11k c000000.wifi: mgmt event mgmt rx skb 000000000cab9587 len 167 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.406924] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -28, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.412188] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.412217] ath11k c000000.wifi: htc rx ep 2 skb 0000000018a8494a trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.412240] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.412256] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000018a8494a len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.412271] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -29, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.412415] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 320
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.412438] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000009d5057ce trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.412456] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.412470] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000009d5057ce len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.412484] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.440030] ath11k c000000.wifi: ce rx ce pipe 2 len 268
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.440081] ath11k c000000.wifi: htc rx ep 2 skb 00000000f91b39e5 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.440118] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.440147] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000f91b39e5 len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.440177] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -26, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.457054] ath11k_pci 0000:01:00.0: ce rx ce pipe 1 len 372
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.457103] ath11k_pci 0000:01:00.0: htc rx ep 1 skb 000000006e57f104 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.457135] ath11k_pci 0000:01:00.0: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.475166] ath11k c000000.wifi: ce rx ce pipe 2 len 1460
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.475204] ath11k c000000.wifi: htc rx ep 2 skb 0000000046cf6217 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.475228] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.475241] ath11k c000000.wifi: ce rx ce pipe 2 len 284
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.475252] ath11k c000000.wifi: htc rx ep 2 skb 000000000b02bf67 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.475269] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.475288] ath11k c000000.wifi: mgmt event mgmt rx skb 000000000b02bf67 len 193 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.475303] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -28, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.479694] ath11k c000000.wifi: ce rx ce pipe 2 len 336
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.479728] ath11k c000000.wifi: htc rx ep 2 skb 000000005f3989a3 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.479751] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.479769] ath11k c000000.wifi: mgmt event mgmt rx skb 000000005f3989a3 len 248 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.479784] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -43, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.479980] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 412
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.480017] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000f2901085 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.480040] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.480060] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000f2901085 len 271 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.480076] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -51, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.484668] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.484719] ath11k c000000.wifi: htc rx ep 2 skb 00000000b44ac766 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.484748] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.484770] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000b44ac766 len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.484792] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -44, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.485948] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 264
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.485984] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000005941dbaa trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.486011] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.486031] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000005941dbaa len 124 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.486047] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.489964] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 532
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.489994] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000d0ba5123 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.490016] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.490034] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000d0ba5123 len 390 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.490049] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -91, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.495652] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 324
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.495693] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000005a43dea2 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.495730] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.495751] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000005a43dea2 len 182 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.495771] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -51, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.501098] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 308
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.501142] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000a010ef89 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.501168] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.501190] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000a010ef89 len 166 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.501210] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.506753] ath11k c000000.wifi: ce rx ce pipe 1 len 360
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.506793] ath11k c000000.wifi: htc rx ep 1 skb 00000000f510ebdf trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.506818] ath11k c000000.wifi: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.512321] ath11k c000000.wifi: ce rx ce pipe 2 len 256
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.512369] ath11k c000000.wifi: htc rx ep 2 skb 0000000031c75736 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.512402] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.512423] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000031c75736 len 167 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.512442] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -28, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.512645] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.512683] ath11k c000000.wifi: htc rx ep 2 skb 000000004333f011 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.512706] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.512725] ath11k c000000.wifi: mgmt event mgmt rx skb 000000004333f011 len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.512744] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -29, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.512934] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 320
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.512970] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000311e9d54 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.512992] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.513013] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000311e9d54 len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.513030] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.523270] ath11k c000000.wifi: ce rx ce pipe 2 len 1492
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.523324] ath11k c000000.wifi: htc rx ep 2 skb 00000000ab94ec79 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.523347] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.523365] ath11k c000000.wifi: ce rx ce pipe 2 len 1496
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.523381] ath11k c000000.wifi: htc rx ep 2 skb 0000000045296c6b trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.523396] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.523410] ath11k c000000.wifi: ce rx ce pipe 2 len 1500
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.523422] ath11k c000000.wifi: htc rx ep 2 skb 00000000a5d440d0 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.523438] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.523923] ath11k c000000.wifi: ce rx ce pipe 2 len 1464
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.523959] ath11k c000000.wifi: htc rx ep 2 skb 0000000073172a53 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.523979] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.545540] ath11k c000000.wifi: ce rx ce pipe 2 len 268
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.545577] ath11k c000000.wifi: htc rx ep 2 skb 000000009b76617b trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.545599] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.545616] ath11k c000000.wifi: mgmt event mgmt rx skb 000000009b76617b len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.545633] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -26, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.562217] ath11k_pci 0000:01:00.0: ce rx ce pipe 1 len 372
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.562269] ath11k_pci 0000:01:00.0: htc rx ep 1 skb 0000000071ef5f5c trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.562289] ath11k_pci 0000:01:00.0: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.578988] ath11k c000000.wifi: ce rx ce pipe 2 len 284
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.579042] ath11k c000000.wifi: htc rx ep 2 skb 00000000e723dc3c trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.579071] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.579094] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000e723dc3c len 193 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.579114] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -28, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.584633] ath11k c000000.wifi: ce rx ce pipe 2 len 336
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.584677] ath11k c000000.wifi: htc rx ep 2 skb 00000000dfa32250 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.584700] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.584721] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000dfa32250 len 248 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.584741] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -42, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.584917] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.584946] ath11k c000000.wifi: htc rx ep 2 skb 0000000057013559 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.584970] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.584987] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000057013559 len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.585002] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -44, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.585154] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 412
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.585181] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 0000000085d7f81c trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.585200] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.585218] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 0000000085d7f81c len 271 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.585234] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -51, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.589980] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 264
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.590018] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000005effa49d trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.590046] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.590072] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000005effa49d len 124 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.590090] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.590296] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 532
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.590330] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000006efb452f trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.590350] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.590366] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000006efb452f len 390 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.590383] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -91, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.597272] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 324
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.597323] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000b065d117 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.597356] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.597381] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000b065d117 len 182 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.597402] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -51, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.601169] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 308
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.601215] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000aba5a2a9 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.601251] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.601273] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000aba5a2a9 len 166 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.601292] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.606687] ath11k c000000.wifi: ce rx ce pipe 1 len 360
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.606725] ath11k c000000.wifi: htc rx ep 1 skb 00000000f8982afc trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.606743] ath11k c000000.wifi: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.606809] ath11k c000000.wifi: ce rx ce pipe 2 len 1488
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.606827] ath11k c000000.wifi: htc rx ep 2 skb 00000000191b85bf trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.606845] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.612334] ath11k c000000.wifi: ce rx ce pipe 2 len 256
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.612378] ath11k c000000.wifi: htc rx ep 2 skb 000000004e4510f9 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.612405] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.612428] ath11k c000000.wifi: mgmt event mgmt rx skb 000000004e4510f9 len 167 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.612450] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -28, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.612652] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.612684] ath11k c000000.wifi: htc rx ep 2 skb 0000000026ce9766 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.612711] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.612729] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000026ce9766 len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.612745] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -29, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.613985] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 320
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.614102] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 0000000030a320fb trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.614137] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.614163] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 0000000030a320fb len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.614181] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.645845] ath11k c000000.wifi: ce rx ce pipe 2 len 268
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.645904] ath11k c000000.wifi: htc rx ep 2 skb 00000000beb51a92 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.645934] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.645960] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000beb51a92 len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.645978] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -27, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.662219] ath11k_pci 0000:01:00.0: ce rx ce pipe 1 len 372
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.662272] ath11k_pci 0000:01:00.0: htc rx ep 1 skb 00000000979df9ee trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.662296] ath11k_pci 0000:01:00.0: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.680003] ath11k c000000.wifi: ce rx ce pipe 2 len 284
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.680046] ath11k c000000.wifi: htc rx ep 2 skb 00000000a9a6679c trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.680072] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.680096] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000a9a6679c len 193 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.680112] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -29, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.684630] ath11k c000000.wifi: ce rx ce pipe 2 len 336
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.684698] ath11k c000000.wifi: htc rx ep 2 skb 000000003df7d65f trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.684728] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.684753] ath11k c000000.wifi: mgmt event mgmt rx skb 000000003df7d65f len 248 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.684772] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -41, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.685138] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 412
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.685176] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000880797c4 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.685207] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.685232] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000880797c4 len 271 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.685251] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -51, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.686088] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.686125] ath11k c000000.wifi: htc rx ep 2 skb 00000000b58930c8 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.686151] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.686170] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000b58930c8 len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.686187] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -44, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.690736] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 264
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.690780] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000d3d03c0f trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.690809] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.690832] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000d3d03c0f len 124 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.690851] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.695604] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 532
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.695651] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000b697214e trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.695681] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.695700] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000b697214e len 390 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.695720] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -91, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.701096] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 324
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.701143] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000008ec0c469 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.701172] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.701196] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000008ec0c469 len 182 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.701217] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -51, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.706741] ath11k c000000.wifi: ce rx ce pipe 2 len 1484
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.706788] ath11k c000000.wifi: htc rx ep 2 skb 000000004f1df223 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.706812] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.706869] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 308
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.706891] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000006ffd9027 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.706913] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.706933] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000006ffd9027 len 166 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.706952] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.712212] ath11k c000000.wifi: ce rx ce pipe 1 len 360
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.712256] ath11k c000000.wifi: htc rx ep 1 skb 000000009e02e9a6 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.712279] ath11k c000000.wifi: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.713935] ath11k c000000.wifi: ce rx ce pipe 2 len 256
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.713980] ath11k c000000.wifi: htc rx ep 2 skb 0000000072b603fb trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.714108] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.714150] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000072b603fb len 167 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.714171] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -28, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.718104] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 320
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.718150] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000ae176a9c trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.718182] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.718222] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000ae176a9c len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.718245] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.718410] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.718441] ath11k c000000.wifi: htc rx ep 2 skb 0000000064cec34d trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.718462] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.718482] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000064cec34d len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.718500] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -29, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.746784] ath11k c000000.wifi: ce rx ce pipe 2 len 268
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.746833] ath11k c000000.wifi: htc rx ep 2 skb 0000000063f3db91 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.746863] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.746885] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000063f3db91 len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.746903] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -26, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.767767] ath11k_pci 0000:01:00.0: ce rx ce pipe 1 len 372
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.767818] ath11k_pci 0000:01:00.0: htc rx ep 1 skb 00000000eb736ec3 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.767843] ath11k_pci 0000:01:00.0: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.784564] ath11k c000000.wifi: ce rx ce pipe 2 len 284
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.784611] ath11k c000000.wifi: htc rx ep 2 skb 00000000e5478fce trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.784642] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.784662] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000e5478fce len 193 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.784683] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -28, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790097] ath11k c000000.wifi: ce rx ce pipe 2 len 1484
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790144] ath11k c000000.wifi: htc rx ep 2 skb 00000000d12d803c trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790170] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790185] ath11k c000000.wifi: ce rx ce pipe 2 len 336
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790199] ath11k c000000.wifi: htc rx ep 2 skb 000000000cab9587 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790220] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790241] ath11k c000000.wifi: mgmt event mgmt rx skb 000000000cab9587 len 248 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790258] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -42, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790450] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790485] ath11k c000000.wifi: htc rx ep 2 skb 0000000018a8494a trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790505] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790523] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000018a8494a len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790543] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -43, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790724] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 412
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790757] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000980ad082 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790780] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790802] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000980ad082 len 271 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.790820] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -51, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.795595] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 264
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.795640] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000005a4aa5d1 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.795663] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.795683] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000005a4aa5d1 len 124 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.795702] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.795869] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 532
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.795896] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000a52ac5e0 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.795916] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.795930] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000a52ac5e0 len 390 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.795944] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -90, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.802025] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 324
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.802061] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 0000000068478b7f trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.802087] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.802104] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 0000000068478b7f len 182 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.802119] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -51, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.806712] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 308
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.806758] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000008eceedea trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.806788] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.806809] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000008eceedea len 166 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.806827] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.812190] ath11k c000000.wifi: ce rx ce pipe 1 len 360
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.812226] ath11k c000000.wifi: htc rx ep 1 skb 00000000d0b287fb trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.812245] ath11k c000000.wifi: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.817839] ath11k c000000.wifi: ce rx ce pipe 2 len 256
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.817873] ath11k c000000.wifi: htc rx ep 2 skb 00000000f91b39e5 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.817898] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.817915] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000f91b39e5 len 167 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.817931] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -29, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.818060] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.818088] ath11k c000000.wifi: htc rx ep 2 skb 000000000b02bf67 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.818112] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.818129] ath11k c000000.wifi: mgmt event mgmt rx skb 000000000b02bf67 len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.818145] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -29, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.818814] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 320
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.818848] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000003691063d trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.818870] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.818888] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000003691063d len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.818902] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -59, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.851219] ath11k c000000.wifi: ce rx ce pipe 2 len 268
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.851271] ath11k c000000.wifi: htc rx ep 2 skb 000000007edced33 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.851303] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.851326] ath11k c000000.wifi: mgmt event mgmt rx skb 000000007edced33 len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.851345] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -26, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.858509] ath11k c000000.wifi: ce rx ce pipe 2 len 1500
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.858553] ath11k c000000.wifi: htc rx ep 2 skb 000000005f3989a3 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.858574] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.867770] ath11k_pci 0000:01:00.0: ce rx ce pipe 1 len 372
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.867821] ath11k_pci 0000:01:00.0: htc rx ep 1 skb 000000006f1cd309 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.867842] ath11k_pci 0000:01:00.0: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.884862] ath11k c000000.wifi: ce rx ce pipe 2 len 284
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.884907] ath11k c000000.wifi: htc rx ep 2 skb 00000000f11edb99 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.884931] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.884952] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000f11edb99 len 193 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.884971] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -28, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.890088] ath11k c000000.wifi: ce rx ce pipe 2 len 336
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.890132] ath11k c000000.wifi: htc rx ep 2 skb 000000004333f011 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.890162] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.890183] ath11k c000000.wifi: mgmt event mgmt rx skb 000000004333f011 len 248 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.890204] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -42, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.890419] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 412
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.890455] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000002c785a88 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.890479] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.890500] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000002c785a88 len 271 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.890517] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -49, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.890902] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.890941] ath11k c000000.wifi: htc rx ep 2 skb 00000000cefd5721 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.890970] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.890989] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000cefd5721 len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.891006] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -44, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.895656] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 264
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.895696] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000000b241b4d trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.895719] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.895738] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000000b241b4d len 124 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.895758] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.897499] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 532
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.897537] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 0000000016554144 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.901068] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.901095] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 0000000016554144 len 390 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.901120] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -92, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.906754] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 324
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.906796] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 0000000073f14202 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.906824] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.906849] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 0000000073f14202 len 182 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.906868] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -50, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.908399] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 308
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.908452] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000d068761b trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.908482] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.908506] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000d068761b len 166 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.908524] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.913760] ath11k c000000.wifi: ce rx ce pipe 1 len 360
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.913802] ath11k c000000.wifi: htc rx ep 1 skb 0000000038b09ff8 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.913823] ath11k c000000.wifi: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.918791] ath11k c000000.wifi: ce rx ce pipe 2 len 256
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.918869] ath11k c000000.wifi: htc rx ep 2 skb 00000000311e9d54 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.918909] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.918931] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000311e9d54 len 167 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.918950] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -28, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.923315] ath11k c000000.wifi: ce rx ce pipe 2 len 1500
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.923361] ath11k c000000.wifi: htc rx ep 2 skb 00000000a5d440d0 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.923384] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.923403] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.923419] ath11k c000000.wifi: htc rx ep 2 skb 0000000045296c6b trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.923437] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.923457] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000045296c6b len 163 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.923472] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -29, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.923649] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 320
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.923680] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000009d5057ce trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.923703] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.923722] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000009d5057ce len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.923740] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.951596] ath11k c000000.wifi: ce rx ce pipe 2 len 268
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.951643] ath11k c000000.wifi: htc rx ep 2 skb 00000000ab94ec79 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.951675] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.951693] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000ab94ec79 len 178 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.951710] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -27, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.969064] ath11k_pci 0000:01:00.0: ce rx ce pipe 1 len 372
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.969101] ath11k_pci 0000:01:00.0: htc rx ep 1 skb 0000000057f9fc71 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.969121] ath11k_pci 0000:01:00.0: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.990109] ath11k c000000.wifi: ce rx ce pipe 2 len 284
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.990153] ath11k c000000.wifi: htc rx ep 2 skb 000000009b76617b trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.990184] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.990206] ath11k c000000.wifi: mgmt event mgmt rx skb 000000009b76617b len 193 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.990225] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -29, rate_idx 3
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.991729] ath11k c000000.wifi: ce rx ce pipe 2 len 336
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.991769] ath11k c000000.wifi: htc rx ep 2 skb 00000000e723dc3c trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.991794] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.991816] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000e723dc3c len 248 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.991834] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -41, rate_idx 10
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.995781] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 412
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.995826] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000f2901085 trailer_present 0
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.995857] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.995876] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000f2901085 len 271 ftype 00 stype 80
+Thu Jan  1 00:40:50 1970 kern.debug kernel: [ 2450.995892] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -50, rate_idx 6
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2450.997342] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2450.997388] ath11k c000000.wifi: htc rx ep 2 skb 0000000057013559 trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2450.997417] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2450.997439] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000057013559 len 163 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2450.997457] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -43, rate_idx 3
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.001224] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 264
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.001260] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000005941dbaa trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.001287] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.001309] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000005941dbaa len 124 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.001328] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.001446] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 532
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.001469] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000d0ba5123 trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.001489] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.001505] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000d0ba5123 len 390 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.001523] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -90, rate_idx 6
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.006844] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 324
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.006893] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000005a43dea2 trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.006924] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.006950] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000005a43dea2 len 182 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.006969] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -49, rate_idx 6
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.012244] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 308
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.012282] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000d3e632db trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.012311] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.012337] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000d3e632db len 166 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.012355] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:51 1970 daemon.info dnsmasq[1]: read /etc/hosts - 12 names
+Thu Jan  1 00:40:51 1970 daemon.info dnsmasq[1]: read /tmp/hosts/dhcp.cfg01411c - 0 names
+Thu Jan  1 00:40:51 1970 daemon.info dnsmasq[1]: read /tmp/hosts/shared-state-dnsmasq_hosts - 73 names
+Thu Jan  1 00:40:51 1970 daemon.info dnsmasq-dhcp[1]: read /tmp/dhcp.hosts_remote
+Thu Jan  1 00:40:51 1970 daemon.info dnsmasq-dhcp[1]: read /etc/ethers - 0 addresses
+Thu Jan  1 00:40:51 1970 daemon.info dnsmasq[1]: read /etc/hosts - 12 names
+Thu Jan  1 00:40:51 1970 daemon.info dnsmasq[1]: read /tmp/hosts/dhcp.cfg01411c - 0 names
+Thu Jan  1 00:40:51 1970 daemon.info dnsmasq[1]: read /tmp/hosts/shared-state-dnsmasq_hosts - 73 names
+Thu Jan  1 00:40:51 1970 daemon.info dnsmasq-dhcp[1]: read /tmp/dhcp.hosts_remote
+Thu Jan  1 00:40:51 1970 daemon.info dnsmasq-dhcp[1]: read /etc/ethers - 0 addresses
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.017765] ath11k c000000.wifi: ce rx ce pipe 1 len 360
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.017802] ath11k c000000.wifi: htc rx ep 1 skb 00000000c36d7740 trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.017821] ath11k c000000.wifi: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.019029] ath11k c000000.wifi: ce rx ce pipe 2 len 1492
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.019073] ath11k c000000.wifi: htc rx ep 2 skb 0000000043d15d61 trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.019095] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.023483] ath11k c000000.wifi: ce rx ce pipe 2 len 256
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.023551] ath11k c000000.wifi: htc rx ep 2 skb 00000000191b85bf trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.023588] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.023611] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000191b85bf len 167 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.023633] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -27, rate_idx 3
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.023816] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.023850] ath11k c000000.wifi: htc rx ep 2 skb 0000000026ce9766 trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.023873] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.023892] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000026ce9766 len 163 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.023908] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -29, rate_idx 10
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.024193] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 320
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.024234] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 0000000096e18a7c trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.024259] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.024283] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 0000000096e18a7c len 178 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.024302] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.056781] ath11k c000000.wifi: ce rx ce pipe 2 len 268
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.056825] ath11k c000000.wifi: htc rx ep 2 skb 000000004e4510f9 trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.056858] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.056881] ath11k c000000.wifi: mgmt event mgmt rx skb 000000004e4510f9 len 178 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.056900] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -27, rate_idx 10
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.073309] ath11k_pci 0000:01:00.0: ce rx ce pipe 1 len 372
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.073343] ath11k_pci 0000:01:00.0: htc rx ep 1 skb 000000008e16eb43 trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.073363] ath11k_pci 0000:01:00.0: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.090052] ath11k c000000.wifi: ce rx ce pipe 2 len 284
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.090088] ath11k c000000.wifi: htc rx ep 2 skb 00000000beb51a92 trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.090114] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.090130] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000beb51a92 len 193 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.090146] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -29, rate_idx 3
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.095722] ath11k c000000.wifi: ce rx ce pipe 2 len 336
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.095762] ath11k c000000.wifi: htc rx ep 2 skb 00000000a9a6679c trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.095791] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.095808] ath11k c000000.wifi: mgmt event mgmt rx skb 00000000a9a6679c len 248 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.095825] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -41, rate_idx 10
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.095967] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.095990] ath11k c000000.wifi: htc rx ep 2 skb 000000003df7d65f trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.096009] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.096024] ath11k c000000.wifi: mgmt event mgmt rx skb 000000003df7d65f len 163 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.096038] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -44, rate_idx 3
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.096165] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 412
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.096187] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 0000000085d7f81c trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.096209] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.096225] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 0000000085d7f81c len 271 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.096239] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -50, rate_idx 6
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.101079] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 264
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.101111] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 000000005effa49d trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.101136] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.101154] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 000000005effa49d len 124 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.101170] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.102289] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 532
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.102325] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 0000000082767c1c trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.102347] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.102365] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 0000000082767c1c len 390 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.102381] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -91, rate_idx 6
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.112191] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 324
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.112227] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000b065d117 trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.112251] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.112268] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000b065d117 len 182 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.112285] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -50, rate_idx 6
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.113211] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 308
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.113266] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 00000000aba5a2a9 trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.113294] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.113312] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 00000000aba5a2a9 len 166 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.113327] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.113500] ath11k c000000.wifi: ce rx ce pipe 2 len 1468
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.113530] ath11k c000000.wifi: htc rx ep 2 skb 00000000b58930c8 trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.113553] ath11k c000000.wifi: wmi event diag
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.118536] ath11k c000000.wifi: ce rx ce pipe 1 len 360
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.118569] ath11k c000000.wifi: htc rx ep 1 skb 00000000bff0ef96 trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.118590] ath11k c000000.wifi: dp_htt dp_htt rx msg type :0x1d
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.123526] ath11k c000000.wifi: ce rx ce pipe 2 len 256
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.123561] ath11k c000000.wifi: htc rx ep 2 skb 000000004f1df223 trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.123584] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.123602] ath11k c000000.wifi: mgmt event mgmt rx skb 000000004f1df223 len 167 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.123637] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -29, rate_idx 3
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.128858] ath11k c000000.wifi: ce rx ce pipe 2 len 252
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.128894] ath11k c000000.wifi: htc rx ep 2 skb 0000000072121e9d trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.128917] ath11k c000000.wifi: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.128937] ath11k c000000.wifi: mgmt event mgmt rx skb 0000000072121e9d len 163 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.128953] ath11k c000000.wifi: mgmt event mgmt rx freq 2422 band 0 snr -29, rate_idx 10
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.129122] ath11k_pci 0000:01:00.0: ce rx ce pipe 2 len 320
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.129160] ath11k_pci 0000:01:00.0: htc rx ep 2 skb 0000000030a320fb trailer_present 0
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.129185] ath11k_pci 0000:01:00.0: mgmt event mgmt rx status 00000000
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.129204] ath11k_pci 0000:01:00.0: mgmt event mgmt rx skb 0000000030a320fb len 178 ftype 00 stype 80
+Thu Jan  1 00:40:51 1970 kern.debug kernel: [ 2451.129219] ath11k_pci 0000:01:00.0: mgmt event mgmt rx freq 5180 band 1 snr -58, rate_idx 6
