@@ -1,10 +1,11 @@
 # Notes on tplink_eap650-outdoor-v1
 Tested on 2 devices
-- device1 - B2:xx:xx:xx:60:13
-- device2 - B2:xx:xx:xx:61:13
+- device1 - B2:xx:xx:xx:60:02
+- device2 - B2:xx:xx:xx:61:12
 
 
 ## Resources
+- FCCID: https://fccid.io/2AXJ4EAP650OD
 - GPL code: 
     - https://support.omadanetworks.com/us/product/eap650-outdoor/v1/?resourceType=download
     - https://static.tp-link.com/upload/gpl-code/2023/202305/20230516/ipq518_eap650_outdoor_v1.tar.gz
